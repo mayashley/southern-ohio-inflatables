@@ -1,11 +1,9 @@
 import React from 'react'
-
-
- const Home = () => {
+ const Footer = () => {
     return (
         <div>
-        home page            
+            <h4>footer</h4>
         </div>
     )
 }
-export default Home
+export default Footer

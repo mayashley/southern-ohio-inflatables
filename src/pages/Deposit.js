@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
  const Deposit = () => {
     return (
-        <div>
-            deposit page
-        </div>
+        <Layout>
+            Deposit page
+        </Layout>
     )
 }
 export default Deposit

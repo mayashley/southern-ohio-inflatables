@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
  const PartyTents = () => {
     return (
-        <div>
-            party tends here
-        </div>
+        <Layout>
+            party tents here
+        </Layout>
     )
 }
 export default PartyTents

@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
  const Concessions = () => {
     return (
-        <div>
-            concession page
-        </div>
+       <Layout>
+           Concessions Page
+       </Layout>
     )
 }
 export default Concessions

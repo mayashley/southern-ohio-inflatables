@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
  const Inflatables = () => {
     return (
-        <div>
-        Inflatables page            
-        </div>
+        <Layout>
+            inflatables here
+        </Layout>
     )
 }
 export default Inflatables
