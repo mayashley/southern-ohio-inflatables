@@ -13,20 +13,20 @@ return(
  <div className={styles.dropdown}>
      <button className={styles.dropbtn}>Inflatables</button>
  <div className={styles.dropdownContent}>
-      <a href="#">Bounce Houses</a>
-      <a href="#">Bounce House Slide Combos</a>
-      <a href="#">Slides</a>
-      <a href="#">Obstacle Courses</a>
-      <a href="#">Inflatable Interactives</a>
-      <a href="#">Water Friendly</a>
+      <a><Link to='/BounceHouses/'>Bounce Houses</Link></a>
+      <a><Link to='/BounceCombo/'>Bounce House Slide Combos</Link></a>
+      <a><Link to='/Slides/'>Slides</Link></a>
+      <a><Link to='/ObstacleCourse/'>Obstacle Courses</Link></a>
+      <a><Link to='/WaterFriendly/'>Water Friendly</Link></a>
+      <a><Link to='/Interactives/'>Inflatable Interactives</Link></a>
     </div>
     </div>
     <div className={styles.dropdown}>
      <button className={styles.dropbtn}>Party Tents</button>
  <div className={styles.dropdownContent}>
       <a><Link to='/PopUpTents/'>Pop-Up Tents</Link></a>
-      <a href="#">Pole Tents</a>
-      <a href="#">High Peak Frame Tents</a>
+      <a><Link to='/PoleTents/'>Pole Tents</Link></a>
+      <a><Link to='/HighPeakTents/'>High Peak Frame Tents</Link></a>
     </div>
     </div>
     <div className={styles.dropdown}>

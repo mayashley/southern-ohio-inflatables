@@ -1,11 +1,11 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
- const Inflatables = () => {
+ const BounceCombo = () => {
     return (
         <Layout>
-            inflatables here
+            bounce with combo
         </Layout>
     )
 }
-export default Inflatables
+export default BounceCombo
