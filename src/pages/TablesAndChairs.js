@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
  const TablesAndChairs = () => {
     return (
-        <div>
-        tables and chairs            
-        </div>
+      <Layout>
+          tables and chairs
+      </Layout>
     )
 }
 export default TablesAndChairs
