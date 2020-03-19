@@ -6,47 +6,60 @@ import { Link } from "gatsby"
 
 
 const Navbar = () => {
-
+    const [isOpen, setNav] = useState()
+    const toggleNav = () => {
+      setNav(isOpen => !isOpen)
+    }
 return(
 <div className={styles.navbar}>
- <a><Link to='/'>Home</Link></a>
+<div className={styles.navHeader}>
+<button type="button" className={styles.logoBtn} onClick={toggleNav}>
+            <FaAlignRight className={styles.logoIcon} />
+          </button>
+          </div>
+          <ul className={ isOpen
+              ? `${styles.navLinks} ${styles.showNav}`
+              : `${styles.navLinks}`}>
+ <li><Link to='/'>Home</Link></li>
  <div className={styles.dropdown}>
      <button className={styles.dropbtn}>Inflatables</button>
- <div className={styles.dropdownContent}>
-      <a><Link to='/BounceHouses/'>Bounce Houses</Link></a>
-      <a><Link to='/BounceCombo/'>Bounce House Slide Combos</Link></a>
-      <a><Link to='/Slides/'>Slides</Link></a>
-      <a><Link to='/ObstacleCourse/'>Obstacle Courses</Link></a>
-      <a><Link to='/WaterFriendly/'>Water Friendly</Link></a>
-      <a><Link to='/Interactives/'>Inflatable Interactives</Link></a>
-    </div>
+ <ul className={styles.dropdownContent}>
+      <li><Link to='/BounceHouses/'>Bounce Houses</Link></li>
+      <li><Link to='/BounceCombo/'>Bounce House Slide Combos</Link></li>
+      <li><Link to='/Slides/'>Slides</Link></li>
+      <li><Link to='/ObstacleCourse/'>Obstacle Courses</Link></li>
+      <li><Link to='/WaterFriendly/'>Water Friendly</Link></li>
+      <li><Link to='/Interactives/'>Inflatable Interactives</Link></li>
+    </ul>
     </div>
     <div className={styles.dropdown}>
      <button className={styles.dropbtn}>Party Tents</button>
- <div className={styles.dropdownContent}>
-      <a><Link to='/PopUpTents/'>Pop-Up Tents</Link></a>
-      <a><Link to='/PoleTents/'>Pole Tents</Link></a>
-      <a><Link to='/HighPeakTents/'>High Peak Frame Tents</Link></a>
-    </div>
+ <ul className={styles.dropdownContent}>
+      <li><Link to='/PopUpTents/'>Pop-Up Tents</Link></li>
+      <li><Link to='/PoleTents/'>Pole Tents</Link></li>
+      <li><Link to='/HighPeakTents/'>High Peak Frame Tents</Link></li>
+    </ul>
     </div>
     <div className={styles.dropdown}>
      <button className={styles.dropbtn}>Games</button>
- <div className={styles.dropdownContent}>
-      <a><Link to='/DunkBooth/'>Dunk Booth</Link></a>
-    </div>
+ <ul className={styles.dropdownContent}>
+      <li><Link to='/DunkBooth/'>Dunk Booth</Link></li>
+    </ul>
     </div>
     <div className={styles.dropdown}>
      <button className={styles.dropbtn}>Party Equiptment</button>
- <div className={styles.dropdownContent}>
-      <a><Link to='/Concessions/'>Concessions</Link></a>
-      <a><Link to='/TablesAndChairs/'>Tables and Chairs</Link></a>
-      <a><Link to='/Cinema/'>Portable Cinema</Link></a>
+ <ul className={styles.dropdownContent}>
+      <li><Link to='/Concessions/'>Concessions</Link></li>
+      <li><Link to='/TablesAndChairs/'>Tables and Chairs</Link></li>
+      <li><Link to='/Cinema/'>Portable Cinema</Link></li>
+    </ul>
     </div>
-    </div>
-    <a><Link to='/Faq'>FAQ's</Link></a>
-    <a><Link to='/Contact'>Contact US</Link></a>
-    <a><Link to='/Deposit'>Pay Deposit</Link></a>
+    <li><Link to='/Faq'>FAQ's</Link></li>
+    <li><Link to='/Contact'>Contact US</Link></li>
+    <li><Link to='/Deposit'>Pay Deposit</Link></li>
+    </ul>
 </div>
+
 )
 }
 export default Navbar
