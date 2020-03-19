@@ -1,4 +1,4 @@
-/* Navbar container */
+
 .navbar{
   background-color:grey;
 }
@@ -31,7 +31,7 @@
   text-transform: capitalize;
   color: var(--mainBlack);
   transition: var(--mainTransition);
-  font-weight: bold;
+  font-weight: bolder;
   letter-spacing: var(--mainSpacing);
   border-bottom: 0.5px solid var(--mainBlack);
 }
@@ -112,7 +112,12 @@
   }
   .dropdown-content li{
     display: block;
-    
+    border-bottom: 1px solid var(--mainBlack);
+    background-color: rgb(83, 83, 83);
+  }
+  .dropdown-content li:last-child{
+    display: block;
+    border-bottom: none;
   }
   .topnav a:hover, .dropdown:hover .dropbtn {
     color: var(--primaryColor);
@@ -144,6 +149,7 @@
   .nav-links a {
     padding: 1rem 1.25rem;
     border-bottom: none;
+    font-weight: bolder;
   }
  
 }
