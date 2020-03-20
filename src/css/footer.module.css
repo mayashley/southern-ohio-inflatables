@@ -1,0 +1,36 @@
+.footer {
+    margin-top: auto;
+    background: rgb(83, 83, 83);
+    padding: 2rem;
+    text-align: center;
+    color: var(--mainWhite);
+  }
+  .socialIcons a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--mainWhite);
+    margin: 0.5rem 1rem;
+    letter-spacing: var(--mainSpacing);
+    transition: var(--mainTransition);
+    font-weight: bold;
+  }
+  .socialIcons a:hover {
+    color: var(--primaryColor);
+  }
+  .icons a {
+    display: inline-block;
+    margin: 1rem;
+    font-size: 1.3rem;
+    color: var(--mainWhite);
+    transition: var(--mainTransition);
+  }
+  .icons a:hover {
+    color:rgb(255, 123, 0);
+  }
+  .copyright {
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+    line-height: 2;
+  }
+  

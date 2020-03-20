@@ -1,6 +1,6 @@
 
 .navbar{
-  background-color:grey;
+  background-color:var(--mainWhite);
 }
 .logo-btn {
   background: transparent;
@@ -11,7 +11,7 @@
   cursor: pointer;
 }
 .logo-icon {
-  color: var(--primaryColor);
+  color: rgb(255, 123, 0);
   font-size: 1.5rem;
 }
 .nav-links {
@@ -29,14 +29,14 @@
   padding: 1rem 0;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--mainBlack);
+  color: rgb(83, 83, 83);
   transition: var(--mainTransition);
   font-weight: bolder;
   letter-spacing: var(--mainSpacing);
   border-bottom: 0.5px solid var(--mainBlack);
 }
 .nav-links a:hover {
-  color: var(--primaryColor);
+  color: rgb(255, 123, 0);
 }
 .nav-social-links {
   display: none;
@@ -61,6 +61,12 @@
 
 
 @media screen and (min-width: 1089px) {
+  .navbar{
+    background-color:var(--mainWhite);
+    /* height: 80px; */
+    display:flex;
+    align-items: center;
+  }
   .nav-header {
     display: none;
   }
@@ -88,7 +94,7 @@
     transition: var(--mainTransition);
     border: none;
     outline: none;
-    color: var(--mainBlack);
+    color: rgb(83, 83, 83);
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -104,7 +110,7 @@
   }
   .dropdown-content a {
     float: none;
-    color: black;
+    color: rgb(83, 83, 83);
     /* padding: 12px 16px; */
     text-decoration: none;
     display: block;
@@ -112,18 +118,18 @@
   }
   .dropdown-content li{
     display: block;
-    border-bottom: 1px solid var(--mainBlack);
-    background-color: rgb(83, 83, 83);
+    border-bottom: 1px solid rgb(83, 83, 83);
+    background-color: var(--mainWhite);
   }
   .dropdown-content li:last-child{
     display: block;
     border-bottom: none;
   }
   .topnav a:hover, .dropdown:hover .dropbtn {
-    color: var(--primaryColor);
+    color: rgb(255, 123, 0);
   }
   .dropdown-content a:hover {
-    color: var(--primaryColor);
+    color: rgb(255, 123, 0);
   }
   .dropdown:hover .dropdown-content {
     display: block;
@@ -137,13 +143,13 @@
     line-height: 0;
   }
   .nav-social-links a {
-    color: var(--primaryColor);
+    color: rgb(83, 83, 83);
     margin: 0 0.5rem;
     font-size: 1.2rem;
     transition: var(--mainTransition);
   }
   .nav-social-links a:hover {
-    color: var(--mainBlack);
+    color: rgb(255, 123, 0);
     transform: translateY(-5px);
   }
   .nav-links a {
