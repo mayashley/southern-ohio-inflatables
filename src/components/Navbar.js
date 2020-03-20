@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { FaAlignRight } from "react-icons/fa"
-import SocialIcons from "../constants/social-icons"
+// import SocialIcons from "../constants/social-icons"
 import styles from "../css/navbar.module.css"
 import { Link } from "gatsby"
 
@@ -32,14 +32,14 @@ return(
       <li><Link to='/Interactives/'>Inflatable Interactives</Link></li>
     </ul>
     </div>
-    <div className={styles.dropdown}>
+    {/* <div className={styles.dropdown}>
      <button className={styles.dropbtn}>Party Tents</button>
  <ul className={styles.dropdownContent}>
       <li><Link to='/PopUpTents/'>Pop-Up Tents</Link></li>
       <li><Link to='/PoleTents/'>Pole Tents</Link></li>
       <li><Link to='/HighPeakTents/'>High Peak Frame Tents</Link></li>
     </ul>
-    </div>
+    </div> */}
     <div className={styles.dropdown}>
      <button className={styles.dropbtn}>Games</button>
  <ul className={styles.dropdownContent}>
@@ -54,6 +54,7 @@ return(
       <li><Link to='/Cinema/'>Portable Cinema</Link></li>
     </ul>
     </div>
+    <li><Link to='/Tents/'>Tents</Link></li>
     <li><Link to='/Faq'>FAQ's</Link></li>
     <li><Link to='/Contact'>Contact US</Link></li>
     <li><Link to='/Deposit'>Pay Deposit</Link></li>
