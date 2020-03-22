@@ -35,4 +35,8 @@ padding: 3rem 0;
   .services h4 {
     text-transform: uppercase;
   }
+
+  .btnWrapper{
+    margin: 1.5rem 0;
+  }
   

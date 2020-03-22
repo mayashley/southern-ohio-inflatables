@@ -18,7 +18,7 @@ const About = () => {
             purus sit amet libero pellentesque luctus. Donec blandit ornare dui
             at efficitur.'/>
           <button type="button" className="btn-primary">
-            Have Questions?
+           Contact Us
           </button>
         </div>
       </div>

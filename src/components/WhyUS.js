@@ -22,6 +22,11 @@ import services from '../constants/services'
                     })
                 }
             </div>
+            <div className={styles.btnWrapper}>
+            <button type="button" className="btn-primary">
+            Have Questions?
+          </button>
+          </div>
         </div>
         </div>
     )
