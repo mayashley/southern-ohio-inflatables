@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "../css/footer.module.css"
 import socialIcons from "../constants/social-icons"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 const Footer = () => {
   return (

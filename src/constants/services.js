@@ -1,5 +1,5 @@
 import React from "react"
-import { GiAmericanShield, GiThreeFriends, GiCardExchange, GiLaserSparks, GiFamilyHouse, GiSun} from "react-icons/Gi"
+import { GiAmericanShield, GiThreeFriends, GiCardExchange, GiLaserSparks, GiFamilyHouse, GiSun} from "react-icons/gi"
 
 export default [
   {
