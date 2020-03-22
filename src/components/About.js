@@ -1,6 +1,7 @@
 import React from "react"
 import aboutImg from "../images/aboutImg.jpeg"
 import styles from "../css/About.module.css"
+import Title from '../constants/Title'
 
 const About = () => {
   return (
@@ -12,19 +13,10 @@ const About = () => {
           </div>
         </article>
         <div className={styles.aboutInfo}>
-          <h4>Who we are...</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu
-            dui accumsan, bibendum dui vitae, mollis enim. Donec quis eros
-            augue. Nunc consectetur sed magna sit amet eleifend
-          </p>
-          <p>
-            {" "}
-            felis feugiat sapien, sit amet mattis purus felis eget purus. Ut
+          <Title title="Who We Are..." info='felis feugiat sapien, sit amet mattis purus felis eget purus. Ut
             pretium iaculis tellus, ut cursus ipsum dictum sed. Donec tincidunt
             purus sit amet libero pellentesque luctus. Donec blandit ornare dui
-            at efficitur.{" "}
-          </p>
+            at efficitur.'/>
           <button type="button" className="btn-primary">
             Have Questions?
           </button>

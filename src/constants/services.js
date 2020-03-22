@@ -1,20 +1,35 @@
 import React from "react"
-import { FaWallet, FaTree, FaSocks } from "react-icons/fa"
+import { GiAmericanShield, GiThreeFriends, GiCardExchange, GiLaserSparks, GiFamilyHouse, GiSun} from "react-icons/Gi"
 
 export default [
   {
-    icon: <FaWallet />,
-    title: "saving money",
+    icon: <GiAmericanShield />,
+    title: "We are fully Insured",
     text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Null",
   },
   {
-    icon: <FaTree />,
-    title: "endless hiking",
+    icon: <GiThreeFriends/>,
+    title: "COURTEOUS AND FRIENDLY STAFF",
     text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Null",
   },
   {
-    icon: <FaSocks />,
-    title: "amazing comfort",
+    icon: <GiCardExchange />,
+    title: "Accomodating",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Null",
+  },
+  {
+    icon: <GiFamilyHouse />,
+    title: "Family Owned and Opperated",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Null",
+  },
+  {
+    icon: <GiLaserSparks />,
+    title: "Clean and Safe Equiptment",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Null",
+  },
+  {
+    icon: <GiSun />,
+    title: "All Day Rental",
     text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Null",
   },
 ]

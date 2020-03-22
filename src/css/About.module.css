@@ -1,5 +1,6 @@
 .aboutSection{
-    /* border:1px solid green; */
+    background: var(--mainGrey);
+    padding-bottom: 3rem;
 }
 .aboutCenter {
     width: 80vw;
@@ -21,12 +22,7 @@
   .aboutImgWrapper div {
     box-shadow: var(--lightShadow);
   }
-  .aboutInfo h4 {
-    font-size: 1.9rem;
-    text-transform: uppercase;
-    color: rgb(255, 123, 0);
-  }
-  
+ 
   @media screen and (min-width: 768px) {
     .aboutCenter {
       display: grid;
