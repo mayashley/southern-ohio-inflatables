@@ -1,0 +1,31 @@
+.faqTitleWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 1rem;
+}
+
+.faqWrapper {
+  /* border: 1px solid red; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.faqSecondary {
+  /* border: 1px solid red; */
+  display: flex;
+ justify-content: center;
+ margin: 1rem;
+}
+.faqWrapper h2 {
+  /* border: 1px solid red; */
+  display: flex;
+  color: rgb(88, 88, 88);
+  font-size: 1.6rem;
+}
+
+.faqWrapper p {
+  /* border: 1px solid red; */
+  display: flex;
+ justify-content: center;
+ color: rgb(34, 34, 34);
+}

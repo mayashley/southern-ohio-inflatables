@@ -12,7 +12,6 @@ export default () => (
     <Hero>
       <Banner
         title="Southern Ohio Inflatables LLC."
-        info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet bibendum metus, sit amet varius ex hendrerit eu."
       />
     </Hero>
     <About />

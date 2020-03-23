@@ -2,23 +2,27 @@ import React from "react"
 import Layout from "../components/Layout"
 import Title from "../constants/Title"
 import Questions from '../constants/Questions'
+import styles from '../css/faq.module.css'
 
 const Faq = () => {
   return (
     <Layout>
-        <div>
-      <Title title="We have answers!" />
-      </div>
-      <div>
+      <div className={styles.faqTitleWrapper}>
+       <Title title="Frequently Asked Questions" />
+       </div>
+      <div className={styles.faqWrapper}>
+        <div className={styles.faqSecondary}>
+      <div className={styles.faqinfoWrapper}>
           {Questions.map((item, index) => {
             return (
               <article key={index}>
-                <span>{item.icon}</span>
-                <h4>{item.title}</h4>
+                <h2>{item.title}</h2>
                 <p>{item.text}</p>
               </article>
             )
           })}
+          </div>
+        </div>
         </div>
     </Layout>
   )

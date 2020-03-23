@@ -46,7 +46,7 @@
   justify-content: flex-end;
   align-items: center;
   padding: 1rem 1.25rem;
-  background-color: rgb(83, 83, 83);
+  background-color: rgb(218, 218, 218);
 }
 .dropbtn{
   display:none;
@@ -62,7 +62,7 @@
 
 @media screen and (min-width: 1089px) {
   .navbar{
-    background-color:var(--mainWhite);
+    background-color: rgb(218, 218, 218);
     /* height: 80px; */
     display:flex;
     align-items: center;
