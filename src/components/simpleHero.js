@@ -9,5 +9,4 @@ const SimpleHero = () => {
         </div>
     )
 }
-
 export default SimpleHero
