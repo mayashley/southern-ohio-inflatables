@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { FaAlignRight } from "react-icons/fa"
 // import SocialIcons from "../constants/social-icons"
 import styles from "../css/navbar.module.css"
-import { Link } from "gatsby"
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 
 const Navbar = () => {
@@ -20,36 +20,39 @@ return(
           <ul className={ isOpen
               ? `${styles.navLinks} ${styles.showNav}`
               : `${styles.navLinks}`}>
- <li><Link to='/'>Home</Link></li>
+ <li><AniLink fade to='/'>Home</AniLink></li>
  <div className={styles.dropdown}>
-     <button className={styles.dropbtn}>Inflatables</button>
+     {/* <button className={styles.dropbtn}>Inflatables</button> */}
+     <AniLink fade className={styles.dropbtn}>Inflatables</AniLink>
  <ul className={styles.dropdownContent}>
-      <li><Link to='/BounceHouses/'>Bounce Houses</Link></li>
-      <li><Link to='/BounceCombo/'>Bounce House Slide Combos</Link></li>
-      <li><Link to='/Slides/'>Slides</Link></li>
-      <li><Link to='/ObstacleCourse/'>Obstacle Courses</Link></li>
-      <li><Link to='/WaterFriendly/'>Water Friendly</Link></li>
-      <li><Link to='/Interactives/'>Inflatable Interactives</Link></li>
+      <li><AniLink fade to='/BounceHouses/'>Bounce Houses</AniLink></li>
+      <li><AniLink fade to='/BounceCombo/'>Bounce House Slide Combos</AniLink></li>
+      <li><AniLink fade to='/Slides/'>Slides</AniLink></li>
+      <li><AniLink fade to='/ObstacleCourse/'>Obstacle Courses</AniLink></li>
+      <li><AniLink fade to='/WaterFriendly/'>Water Friendly</AniLink></li>
+      <li><AniLink fade to='/Interactives/'>Inflatable Interactives</AniLink></li>
     </ul>
     </div>
     <div className={styles.dropdown}>
-     <button className={styles.dropbtn}>Games</button>
+    <AniLink fade className={styles.dropbtn}>Games</AniLink>
+     {/* <button className={styles.dropbtn}>Games</button> */}
  <ul className={styles.dropdownContent}>
-      <li><Link to='/DunkBooth/'>Dunk Booth</Link></li>
+      <li><AniLink fade to='/DunkBooth/'>Dunk Booth</AniLink></li>
     </ul>
     </div>
     <div className={styles.dropdown}>
-     <button className={styles.dropbtn}>Party Equiptment</button>
+    <AniLink fade className={styles.dropbtn}>Party Equiptment</AniLink>
+     {/* <button className={styles.dropbtn}>Party Equiptment</button> */}
  <ul className={styles.dropdownContent}>
-      <li><Link to='/Concessions/'>Concessions</Link></li>
-      <li><Link to='/TablesAndChairs/'>Tables and Chairs</Link></li>
-      <li><Link to='/Cinema/'>Portable Cinema</Link></li>
-      <li><Link to='/Tents/'>Tents</Link></li>
+      <li><AniLink fade to='/Concessions/'>Concessions</AniLink></li>
+      <li><AniLink fade to='/TablesAndChairs/'>Tables and Chairs</AniLink></li>
+      <li><AniLink fade to='/Cinema/'>Portable Cinema</AniLink></li>
+      <li><AniLink fade to='/Tents/'>Tents</AniLink></li>
     </ul>
     </div>
-    <li><Link to='/Faq'>FAQ's</Link></li>
-    <li><Link to='/Contact'>Contact US</Link></li>
-    <li><Link to='/Deposit'>Pay Deposit</Link></li>
+    <li><AniLink fade to='/Faq'>FAQ's</AniLink></li>
+    <li><AniLink fade to='/Contact'>Contact US</AniLink></li>
+    <li><AniLink fade to='/Deposit'>Pay Deposit</AniLink></li>
     </ul>
 </div>
 

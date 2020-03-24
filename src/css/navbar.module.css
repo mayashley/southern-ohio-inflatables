@@ -48,10 +48,10 @@
   padding: 1rem 1.25rem;
   background-color:var(--mainWhite);
 }
-.dropbtn{
-  display:none;
-}
 
+.dropdown .dropbtn {
+display: none;
+}
 @media screen and (min-width: 768px) {
   .logo-icon {
     font-size: 2rem;
@@ -63,9 +63,10 @@
 @media screen and (min-width: 1089px) {
   .navbar{
     background-color:var(--mainWhite);
-    /* height: 80px; */
     display:flex;
     align-items: center;
+    flex-direction: row;
+    justify-content: center;
   }
   .nav-header {
     display: none;
@@ -76,12 +77,6 @@
   .logo-btn {
     display: none;
   }
-  .navbar{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    /* border: 1px solid red; */
-  }
   .dropdown {
     float: left;
     overflow: hidden;
@@ -90,15 +85,14 @@
     font-weight: bold;
     color: var(--primaryColor);
     margin: 0 0.5rem;
-    font-size: 1.2rem;
     transition: var(--mainTransition);
     border: none;
     outline: none;
     color: rgb(83, 83, 83);
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
     margin: 0;
+    display: flex;
   }
   .dropdown-content {
     display: none;
@@ -111,7 +105,6 @@
   .dropdown-content a {
     float: none;
     color: rgb(83, 83, 83);
-    /* padding: 12px 16px; */
     text-decoration: none;
     display: block;
     text-align: left;
@@ -120,6 +113,7 @@
     display: block;
     border-bottom: 1px solid rgb(83, 83, 83);
     background-color: var(--mainWhite);
+
   }
   .dropdown-content li:last-child{
     display: block;
