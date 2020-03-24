@@ -32,14 +32,6 @@ return(
       <li><Link to='/Interactives/'>Inflatable Interactives</Link></li>
     </ul>
     </div>
-    {/* <div className={styles.dropdown}>
-     <button className={styles.dropbtn}>Party Tents</button>
- <ul className={styles.dropdownContent}>
-      <li><Link to='/PopUpTents/'>Pop-Up Tents</Link></li>
-      <li><Link to='/PoleTents/'>Pole Tents</Link></li>
-      <li><Link to='/HighPeakTents/'>High Peak Frame Tents</Link></li>
-    </ul>
-    </div> */}
     <div className={styles.dropdown}>
      <button className={styles.dropbtn}>Games</button>
  <ul className={styles.dropdownContent}>
