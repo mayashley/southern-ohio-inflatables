@@ -52,9 +52,9 @@ return(
       <li><Link to='/Concessions/'>Concessions</Link></li>
       <li><Link to='/TablesAndChairs/'>Tables and Chairs</Link></li>
       <li><Link to='/Cinema/'>Portable Cinema</Link></li>
+      <li><Link to='/Tents/'>Tents</Link></li>
     </ul>
     </div>
-    <li><Link to='/Tents/'>Tents</Link></li>
     <li><Link to='/Faq'>FAQ's</Link></li>
     <li><Link to='/Contact'>Contact US</Link></li>
     <li><Link to='/Deposit'>Pay Deposit</Link></li>
