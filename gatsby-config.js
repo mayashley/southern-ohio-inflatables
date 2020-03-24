@@ -5,5 +5,13 @@
  */
 
 module.exports = {
-  /* Your site config here */
+ plugins: [
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `images`,
+      path: `${__dirname}/src/images/`,
+    },
+  },
+ ]
 }

@@ -1,0 +1,8 @@
+.simpleHeroWrapper img{
+    border: 1px solid green;
+    height: 300px;
+    display:flex;
+    flex-direction: row;
+    margin: 1rem;
+ 
+}

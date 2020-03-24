@@ -47,7 +47,7 @@ p {
 .defaultHero {
   min-height: calc(100vh - 62px);
   background: 
-    url(".././images/bounceHouse1.png") center/cover no-repeat;
+    url(".././images/bounceHouse2.png") center/cover no-repeat;
     /* linear-gradient(rgba(63, 208, 212, 0.7), rgba(0, 0, 0, 0.7)), */
   display: flex;
   justify-content: center;
