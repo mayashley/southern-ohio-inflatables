@@ -3,8 +3,6 @@ import Layout from "../components/Layout"
 import Hero from "../components/Hero"
 import Banner from "../constants/Banner"
 import WhyUS from '../components/WhyUS'
-// import SimpleHero from "../components/SimpleHero"
-// import smParagraph from "../components/smParagraph"
 import About from '../components/About'
 
 
@@ -17,6 +15,6 @@ export default () => (
     </Hero>
     <About />
     <WhyUS />
-    {/* <SimpleHero/> */}
+    
   </Layout>
 )
