@@ -5,14 +5,24 @@
  */
 
 module.exports = {
- plugins: [
-  {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `images`,
-      path: `${__dirname}/src/images/`,
+  siteMetadata: {
+    title: "Southern Ohio Inflatables",
+    description: "Southern Ohio Inflatables",
+    author: "@ashleyMay",
+    data: {
+      name: "ashley",
+      age: "27",
     },
   },
-  `gatsby-transformer-sharp`, `gatsby-plugin-sharp`,
- ],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+  ],
 }
