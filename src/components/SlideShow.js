@@ -10,7 +10,7 @@ const slideImages = [img1, img2, img3, img4]
 
 const properties = {
   duration: 5000,
-  transitionDuration: 500,
+  transitionDuration: 300,
   infinite: true,
   indicators: true,
   arrows: false,
