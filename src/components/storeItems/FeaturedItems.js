@@ -3,7 +3,6 @@ import SingleItem from '../storeItems/SingleItem'
 import {useStaticQuery, graphql} from 'gatsby'
 import Title from '../../constants/Title'
 import styles from '../../css/items.module.css'
-import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 const getFeaturedItems = graphql`
 query{
@@ -35,16 +34,13 @@ query{
 
 
     return (
-        <section className={styles.tours}>
-            <Title title='Featured items'/>
+        <section className={styles.featuredItems}>
+            <Title title='Most popular rentals'/>
             <div className={styles.center}>
             {items.map(({node}) => {
                 return <SingleItem key={node.contentful_id} item={node}/>
             })}
             </div>
-            <AniLink fade to="/BounceCombo" className={styles.btnPrimary}>
-               View All
-            </AniLink>
             </section>
     )
 }
