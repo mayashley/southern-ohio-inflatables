@@ -4,6 +4,7 @@ import Hero from "../components/Hero"
 import Banner from "../constants/Banner"
 import WhyUS from '../components/WhyUS'
 import About from '../components/About'
+import FeaturedItems from '../components/storeItems/FeaturedItems'
 
 
 export default () => (
@@ -15,6 +16,7 @@ export default () => (
     </Hero>
     <About />
     <WhyUS />
+    <FeaturedItems/>
     
   </Layout>
 )

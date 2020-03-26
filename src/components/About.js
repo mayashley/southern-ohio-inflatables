@@ -1,35 +1,17 @@
 import React from "react"
-// import aboutImg from "../images/aboutImg.jpeg"
 import styles from "../css/About.module.css"
 import Title from '../constants/Title'
 import SlideShow from '../components/SlideShow'
-// import {useStaticQuery, graphql} from 'gatsby'
-// import Img from 'gatsby-image'
 
-
-
-// const getAboutImg = graphql`
-// query aboutImage{
-//   aboutImage:file(relativePath:{eq:"aboutImg.jpeg"}){
-//     childImageSharp{
-//       fluid(maxWidth:600){
-//         ...GatsbyImageSharpFluid_tracedSVG
-//       }
-//     }
-//   }
-// }
-// `
 
 const About = () => {
-  // const{aboutImage} = useStaticQuery(getAboutImg);
+ 
 
   return (
     <section className={styles.aboutSection}>
       <div className={styles.aboutCenter}>
         <article className={styles.aboutImgWrapper}>
           <div className={styles.imgContainer}>
-            {/* <img src={aboutImg} alt="about company" /> */}
-            {/* <Img fluid={aboutImage.childImageSharp.fluid} alt="bounce house"/> */}
          <SlideShow/>
           </div>
         </article>

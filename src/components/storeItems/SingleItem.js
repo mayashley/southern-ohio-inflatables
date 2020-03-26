@@ -1,12 +1,13 @@
-
-
 import React from 'react'
+// import 
 
-export const SingleItem = () => {
+
+
+ const SingleItem = () => {
   return (
     <div>
-      hello
+      this is a single combo
     </div>
   )
 }
-
+export default SingleItem
