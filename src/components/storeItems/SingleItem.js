@@ -11,26 +11,21 @@ let mainImage = images[0].fluid;
 
 
   return (
-  <article className={styles.tour}>
-   
-<div classname={styles.imgContainer}>
-  <Image fluid={mainImage} className={styles.img} alt="single item"/>
-<AniLink fade className={styles.link} to={`/BounceCombo/${slug}`}>
-  Details
-</AniLink>
-
-</div>
-<div className={styles.footer}>
-  <h3>{name}</h3>
-  <div className={styles.info}>
-    <h5 className={styles.details}>
-       Price: ${price}
-    </h5>
-  </div>
-</div>
-
+    <article className={styles.singleItems}>
+    <div className={styles.imgContainer}>
+      <Image fluid={mainImage} className={styles.img} alt="single tour" />
+      <AniLink fade className={styles.link} to={`/BounceCombo/${slug}`}>
+        details
+      </AniLink>
+    </div>
+    <div className={styles.footer}>
+      <h3>{name}</h3>
+        <div className={styles.details}>
+          <h5>price: ${price}</h5>
+        </div>
+      </div>
   </article>
-
-  )
+)
 }
+
 export default SingleItem

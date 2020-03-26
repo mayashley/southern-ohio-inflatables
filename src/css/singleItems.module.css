@@ -1,69 +1,67 @@
-.tour {
-    box-shadow: var(--lightShadow);
-    transition: var(--mainTransition);
-    max-height: 420px;
-    border: 1px solid red;
-    display:flex;
-    flex-direction: column;
-    align-content: center;
-  }
-  .tour:hover {
-    box-shadow: var(--darkShadow);
-  }
-  .tourContainer{
-    display: flex;
-    border: 1px solid green;
-  }
-  .img-container {
-    position: relative;
-    background: var(--primaryColor);
-    transition: var(--mainTransition);
-    border: 1px solid red;
-  }
-  .img {
-    transition: var(--mainTransition);
-    border: 1px solid red;
-    height: 300px;
-  }
-  .img-container:hover .img {
-    opacity: 0.3;
-    color: red;
-   
-  }
-  
-  .link {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    text-transform: uppercase;
-    letter-spacing: var(--mainSpacing);
-    color: var(--mainWhite);
-    border: 2px solid var(--mainWhite);
-    padding: 0.5rem 0.7rem;
-    display: inline-block;
-    transition: var(--mainTransition);
-    cursor: pointer;
-   border: 1px solid blue;
-  }
-  .link:hover {
-    background: var(--mainWhite);
-    color: var(--primaryColor);
-   
-  }
-  .img-container:hover .link {
-    opacity: 1;
-   
-  }
-  
-  .footer {
-    padding: 1rem;
-    text-align: left;
-    margin: .5rem 0;
-  }
-  .footer h3 {
-    text-transform: capitalize;
-    margin-bottom: 0;
-    font-size: 16px;
-  }
+.singleItems {
+  box-shadow: var(--lightShadow);
+  transition: var(--mainTransition);
+}
+.singleItems:hover {
+  box-shadow: var(--darkShadow);
+}
+
+.img-container {
+  position: relative;
+  background: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+.img {
+  transition: var(--mainTransition);
+  height: 300px;
+}
+.img-container:hover .img {
+  opacity: 0.3;
+}
+
+.link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainWhite);
+  border: 2px solid var(--mainWhite);
+  padding: 0.5rem 0.7rem;
+  display: inline-block;
+  transition: var(--mainTransition);
+  cursor: pointer;
+}
+.link:hover {
+  background: var(--mainWhite);
+  color: var(--primaryColor);
+}
+.img-container:hover .link {
+  opacity: 1;
+}
+.footer {
+  padding: 1rem;
+  text-align: left;
+}
+.footer h3 {
+  text-transform: capitalize;
+  margin-bottom: 0;
+  font-size: 18px;
+  text-align: left;
+}
+.icon {
+  margin-right: 0.4rem;
+}
+.details {
+  color: grey;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  margin-top: 0.6rem;
+}
+.details h5 {
+  margin-bottom: 0;
+}
