@@ -1,10 +1,12 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
+
  const BounceCombo = () => {
     return (
         <Layout>
-            bounce with combo
+         heres where the items will go
+         
         </Layout>
     )
 }
