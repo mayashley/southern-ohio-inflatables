@@ -1,6 +1,7 @@
 .tours {
     padding: 4rem 0;
     text-align: center;
+    border: 1px solid blue;
   }
   .center {
     width: 80vw;
@@ -9,9 +10,11 @@
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
+    /* border: 1px solid blue; */
   }
   @media screen and (min-width: 576px) {
     .center {
+      /* border: 1px solid blue; */
       grid-template-columns: repeat(auto-fill, minmax(368.66px, 1fr));
     }
   }

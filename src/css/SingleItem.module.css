@@ -45,11 +45,11 @@
     display: inline-block;
     transition: var(--mainTransition);
     cursor: pointer;
-   
+   border: 1px solid blue;
   }
   .link:hover {
-    background: red;
-    color: yellow;
+    background: var(--mainWhite);
+    color: var(--primaryColor);
    
   }
   .img-container:hover .link {

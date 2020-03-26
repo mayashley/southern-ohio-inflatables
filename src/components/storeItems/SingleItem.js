@@ -14,11 +14,11 @@ let mainImage = images[0].fluid;
   <article className={styles.tour}>
    
 <div classname={styles.imgContainer}>
-  <Image fluid={mainImage} className={styles.img} alt="single item">
+  <Image fluid={mainImage} className={styles.img} alt="single item"/>
 <AniLink fade className={styles.link} to={`/BounceCombo/${slug}`}>
   Details
 </AniLink>
-</Image>
+
 </div>
 <div className={styles.footer}>
   <h3>{name}</h3>
