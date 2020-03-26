@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'gatsby-image'
-import styles from "../../css/singleItem.module.css"
+import styles from "../../css/singleItems.module.css"
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 
