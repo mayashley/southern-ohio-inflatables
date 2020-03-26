@@ -1,7 +1,7 @@
 .slideContainer {
   max-width: 600px;
   margin: auto;
-  box-shadow: var(--lightShadow);
+  /* box-shadow: var(--lightShadow); */
   /* background-color: rgb(182, 181, 181); */
 }
 

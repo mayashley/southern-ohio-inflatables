@@ -5,7 +5,8 @@ import Layout from '../components/Layout'
  const BounceCombo = () => {
     return (
         <Layout>
-         heres where the items will go
+         heres where the  bounce house items will go
+         items will go
          
         </Layout>
     )
