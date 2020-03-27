@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
     return (
         <Layout>
             bounce houses here
+           
         </Layout>
     )
 }
