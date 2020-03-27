@@ -34,7 +34,7 @@ query{
 
 
     return (
-        <section className={styles.featuredItems}>
+        <section className={styles.itemsWrapper}>
             <Title title='Most popular rentals'/>
             <div className={styles.center}>
             {items.map(({node}) => {
