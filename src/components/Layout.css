@@ -9,7 +9,7 @@
   --darkGrey: #cfcfcf;
   --grey: grey;
   --mainTransition: all 0.3s linear;
-  --mainSpacing: 4px;
+  /* --mainSpacing: 4px; */
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
@@ -58,7 +58,7 @@ p {
 .btn-primary {
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: var(--mainSpacing);
+  /* letter-spacing: var(--mainSpacing); */
   color: var(--mainWhite);
   border: 2px solid var(--mainWhite);
   padding: 0.9rem 1.6rem;

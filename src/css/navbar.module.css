@@ -8,6 +8,7 @@
   background: transparent;
   border: none;
   outline: none;
+  margin: 0.6rem;
 }
 .logo-btn:hover {
   cursor: pointer;
@@ -21,11 +22,13 @@
   transition: var(--mainTransition);
   height: 0;
   overflow: hidden;
+  /* border: 1px solid red; */
 }
 .show-nav {
   height: 100%;
 }
 .nav-links a {
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   padding: 1rem 0;
@@ -34,7 +37,7 @@
   color: rgb(83, 83, 83);
   transition: var(--mainTransition);
   font-weight: bolder;
-  letter-spacing: var(--mainSpacing);
+  /* letter-spacing: var(--mainSpacing); */
   border-bottom: 0.5px solid var(--mainBlack);
 }
 .nav-links a:hover {
@@ -47,8 +50,9 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 1rem 1.25rem;
+  /* padding: 1rem 1.25rem; */
   background-color:var(--mainWhite);
+  /* border: 1px solid red; */
 }
 
 .dropdown .dropbtn {
@@ -62,7 +66,7 @@ display: none;
 }
 
 
-@media screen and (min-width: 1089px) {
+@media screen and (min-width: 792px) {
   .navbar{
     background-color:var(--mainWhite);
     /* background-color: rgb(240, 240, 240); */
@@ -88,12 +92,12 @@ display: none;
   .dropdown .dropbtn {
     font-weight: bold;
     color: var(--primaryColor);
-    margin: 0 0.5rem;
+    /* margin: 0 0.5rem; */
     transition: var(--mainTransition);
     border: none;
     outline: none;
     color: rgb(83, 83, 83);
-    padding: 14px 16px;
+    /* padding: 14px 16px; */
     background-color: inherit;
     margin: 0;
     display: flex;
@@ -133,7 +137,7 @@ display: none;
     display: block;
   }
   .nav-links {
-    height: auto;
+    height: 100%;
     display: flex;
   }
   .nav-social-links {
@@ -149,12 +153,13 @@ display: none;
   .nav-social-links a:hover {
     color: rgb(255, 123, 0);
     transform: translateY(-5px);
+    /* border:1px solid green; */
   }
   .nav-links a {
-    padding: 1rem 1.25rem;
+    padding: 1.4rem 1.1rem;
     border-bottom: none;
     font-weight: bolder;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 

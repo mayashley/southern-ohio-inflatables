@@ -32,7 +32,7 @@ query{
     return (
         <Layout>
             <div className={styles.itemsWrapper}>
-            <Title  title="Bounce House's"/>
+            <Title  title="Bounce Houses"/>
            <ItemsList combos={combos}/>
            </div>
         </Layout>

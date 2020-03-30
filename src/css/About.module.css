@@ -1,71 +1,51 @@
 .aboutSection{
-    background: var(--mainGrey);
-    padding-bottom: 3rem;
-
+  /* border: 1px solid red; */
+  display:flex;
+  flex-direction: column;
+ align-items: center;
+ width: 100%;
 }
-.aboutCenter {
-    width: 80vw;
-    margin: 0 auto;
-  }
-  .aboutImgWrapper {
-    margin: 3rem 0;
-  }
-  .aboutInfo {
-    margin-top: 3rem;
-  }
- 
+
+.aboutCenter{
+  /* border: 1px solid red; */
+  display:flex;
+  flex-direction: column;
+ align-items: center;
+ width: 100%;
+}
+
+.itemsWrapper{
+  /* border: 1px solid blue; */
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.aboutImgWrapper{
+  /* border: 1px solid red; */
+ /* margin: 0 0 1rem; */
+ display:flex;
+ justify-content: center;
+ max-width: 99%;
+ flex-direction: column;
+ align-items: center;
+}
+
+.imgContainer{
+  /* border: 1px solid red; */
+  max-width: 100%;
+}
+
+.aboutInfo{
+  /* border: 1px solid green; */
+  margin:3rem 0;
+}
+
+.paragraphContainer {
+  /* border: 1px solid green; */
+  display:flex;
+  flex-direction: column;
+ max-width: 548px;
   
-  /* .aboutImgWrapper img {
-    width: 100%;
-    display: block;
-    box-shadow: var(--lightShadow);
-  }
-  .aboutImgWrapper div {
-    box-shadow: var(--lightShadow);
-  } */
- 
-  @media screen and (min-width: 769px) {
-    .aboutCenter {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-column-gap: 3rem;
-      align-items: center;
-      margin-top: 3rem;
-      
-    }
-  
-    /* .aboutImgWrapper,
-    .aboutInfo {
-      margin: 0;
-    } */
-    .about-img img {
-      max-height: 500px;
-    }
-    .imgContainer {
-      max-height: 500px;
-    }
-    .aboutInfo p {
-      width: 80%;
-    }
-  }
-  @media screen and (min-width: 992px) {
-    .imgContainer::before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      /* border: 3px solid var(--primaryColor); */
-      box-sizing: border-box;
-      top: -16px;
-      left: -16px;
-      z-index: -1;
-    }
-  }
-  
-  @media screen and (min-width: 1200px) {
-    .aboutCenter {
-      width: 95vw;
-      max-width: 1170px;
-    }
-  }
-  
+}

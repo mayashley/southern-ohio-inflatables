@@ -9,7 +9,7 @@ import styles from '../css/items.module.css'
     return (
         <Layout>
              <div className={styles.itemsWrapper}>
-            <Title  title="Bounce House Combo's"/>
+            <Title  title="Bounce House Combos"/>
          <AllItems/>
          </div>
         </Layout>

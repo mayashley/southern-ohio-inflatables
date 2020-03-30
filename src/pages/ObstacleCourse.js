@@ -31,7 +31,7 @@ query{
     return (
         <Layout>
             <div className={styles.itemsWrapper}>
-            <Title  title="Obstacle Course's"/>
+            <Title  title="Obstacle Courses"/>
            <ItemsList combos={combos}/>
            </div>
         </Layout>
