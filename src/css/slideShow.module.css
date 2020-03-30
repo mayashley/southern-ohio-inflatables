@@ -11,14 +11,16 @@
   justify-content: center;
   background-size: cover;
   height: 400px;
+  min-width: 500px;
+  overflow: hidden;
 }
 
-.eachSlide span {
+/* .eachSlide span {
   padding: 20px;
   font-size: 20px;
   background: #efefef;
   text-align: center;
-}
+} */
 
 .each-fade {
   display: flex;
@@ -33,11 +35,18 @@
   width: 100%;
 }
 
-.each-fade h2 {
+/* .each-fade h2 {
   width: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
   background: #adceed;
-}
+} */
+
+
+
+
+
+
+
