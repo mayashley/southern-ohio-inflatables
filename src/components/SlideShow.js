@@ -1,10 +1,10 @@
 import React from "react"
 import { Slide } from "react-slideshow-image"
 import styles from "../css/slideShow.module.css"
-const img1 = require("../images/slide2.jpg")
-const img2 = require("../images/slide2.jpg")
+const img1 = require("../images/slideBryan.png")
+const img2 = require("../images/waterSlide.png")
 const img3 = require("../images/aboutImg.jpg")
-const img4 = require('../images/bounceHouse2.png');
+const img4 = require('../images/bounceCastle2.jpg');
 
 const slideImages = [img1, img2, img3, img4]
 
