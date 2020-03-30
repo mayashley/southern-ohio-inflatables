@@ -3,7 +3,6 @@ import styles from "../css/contact.module.css"
 const Contact = () => {
   return (
     <section className={styles.contact}>
-     
       <div className={styles.center}>
         <form
           action="https://formspree.io/mvorwnwo"
@@ -21,6 +20,7 @@ const Contact = () => {
           </div>
           <div>
             <input
+            required
               type="email"
               name="email"
               id="email"
@@ -30,6 +30,7 @@ const Contact = () => {
           </div>
           <div>
             <textarea
+            required
               name="message"
               id="message"
               rows="12"
@@ -38,9 +39,17 @@ const Contact = () => {
             />
           </div>
           <div className={styles.checkBoxes}>
-              <input required type="checkbox" id="agree" name="Term and Conditions" value="sender agrees to terms and conditions of equiptment rental"/>
-          <p>(insert custom agreement here)</p>
-          </div>  
+            <div className={styles.checkBoxesContainer}>
+            <p>
+              <input
+                required
+                type="checkbox"
+                id="agree"
+                name="Term and Conditions"
+                value="sender agrees to terms and conditions of equiptment rental"
+              />your custom agreement will go here</p>
+            </div>
+          </div>
           <div>
             <input
               type="submit"

@@ -1,21 +1,32 @@
 .contact {
     padding: 4rem 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .center {
     width: 80vw;
     margin: 0 auto;
-    border: blue;
+    /* border: blue; */
   }
-  .checkBoxes{
-    border: 1px solid green;
+  .checkBoxes {
+    /* border: 1px solid green; */
     display:flex;
+    align-items: center;
   }
+  .checkBoxesContainer p {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+  }
+  .checkBoxesContainer input {
+    margin: 0 6px;
+  }
+
+ 
   @media screen and (min-width: 992px) {
     .center {
       width: 50vw;
       margin: 0 auto;
-      border: 1px solid blue;
+      /* border: 1px solid blue; */
     }
   }
   .formControl{
@@ -28,10 +39,10 @@
   }
   .submit {
     background-color: var(--primaryColor);
-    /* border-color: var(--primaryColor); */
+
     text-transform: uppercase;
     color: var(--mainWhite);
-    /* transition: var(--mainTransition); */
+   
     cursor: pointer;
     min-width: 30%;
     font-size: 1rem;
@@ -40,8 +51,4 @@
     border: 1px solid var(--darkGrey);
     border-radius: 0.25rem;
   }
-  /* .submit:hover {
-    background: var(--darkGrey);
-    color: var(--mainWhite);
-    border-color: var(--darkGrey);
-  } */
+ 
