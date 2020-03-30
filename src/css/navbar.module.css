@@ -1,6 +1,8 @@
 
 .navbar{
   background-color:var(--mainWhite);
+/* background-color: grey; */
+height: 70px;
 }
 .logo-btn {
   background: transparent;
@@ -63,6 +65,7 @@ display: none;
 @media screen and (min-width: 1089px) {
   .navbar{
     background-color:var(--mainWhite);
+    /* background-color: rgb(240, 240, 240); */
     display:flex;
     align-items: center;
     flex-direction: row;
@@ -97,7 +100,8 @@ display: none;
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
+    background-color:var(--mainWhite);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -113,7 +117,6 @@ display: none;
     display: block;
     border-bottom: 1px solid rgb(83, 83, 83);
     background-color: var(--mainWhite);
-
   }
   .dropdown-content li:last-child{
     display: block;
@@ -152,3 +155,5 @@ display: none;
     font-weight: bolder;
   }
 }
+
+/* rgb(255, 123, 0) */
