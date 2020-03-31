@@ -31,6 +31,7 @@ return(
       <li><AniLink fade to='/ObstacleCourse/'>Obstacle Courses</AniLink></li>
       <li><AniLink fade to='/WaterFriendly/'>Water Friendly</AniLink></li>
       <li><AniLink fade to='/Interactives/'>Inflatable Interactives</AniLink></li>
+      <li><AniLink fade to='/SelfPickUp/'>Self Pick-up Inflatables</AniLink></li>
     </ul>
     </div>
     <div className={styles.dropdown}>
