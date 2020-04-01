@@ -1,11 +1,12 @@
 import React, { useState } from "react"
 import { FaAlignRight } from "react-icons/fa"
+import { connect } from 'react-redux'
 // import SocialIcons from "../constants/social-icons"
 import styles from "../css/navbar.module.css"
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 
-const Navbar = () => {
+const Navbar = (props) => {
     const [isOpen, setNav] = useState()
     const toggleNav = () => {
       setNav(isOpen => !isOpen)
@@ -62,8 +63,16 @@ return(
     </div>
     <li><AniLink fade to='/Deposit'>Pay Deposit</AniLink></li>
     </ul>
+
+    <button>
+      {props.listState.list.length}
+    </button>
 </div>
 
 )
 }
-export default Navbar
+
+
+export default connect(state => ({
+  listState: state,
+}))(Navbar)

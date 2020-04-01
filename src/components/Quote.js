@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "../css/quote.module.css"
+
 const Quote = () => {
   return (
     <section className={styles.contact}>
