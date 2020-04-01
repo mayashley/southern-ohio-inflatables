@@ -52,7 +52,14 @@ return(
     </ul>
     </div>
     <li><AniLink fade to='/Faq'>FAQ's</AniLink></li>
-    <li><AniLink fade to='/Contact'>Contact US</AniLink></li>
+    <div className={styles.dropdown}>
+    <AniLink fade className={styles.dropbtn}>Contact</AniLink>
+     {/* <button className={styles.dropbtn}>Party Equiptment</button> */}
+ <ul className={styles.dropdownContent}>
+      <li><AniLink fade to='/Contact/'>Ask us Questions</AniLink></li>
+      <li><AniLink fade to='/SubmitQuote/'>Submit A Quote</AniLink></li>
+    </ul>
+    </div>
     <li><AniLink fade to='/Deposit'>Pay Deposit</AniLink></li>
     </ul>
 </div>

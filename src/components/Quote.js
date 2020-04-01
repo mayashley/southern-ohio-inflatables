@@ -1,6 +1,6 @@
 import React from "react"
-import styles from "../css/contact.module.css"
-const Contact = () => {
+import styles from "../css/quote.module.css"
+const Quote = () => {
   return (
     <section className={styles.contact}>
       <div className={styles.center}>
@@ -38,7 +38,7 @@ const Contact = () => {
               placeholder="Send us a detailed message and we will be pleased to assist you!."
             />
           </div>
-          {/* <div className={styles.checkBoxes}>
+          <div className={styles.checkBoxes}>
             <div className={styles.checkBoxesContainer}>
             <p>
               <input
@@ -49,7 +49,7 @@ const Contact = () => {
                 value="sender agrees to terms and conditions of equiptment rental"
               />your custom agreement will go here</p>
             </div>
-          </div> */}
+          </div>
           <div>
             <input
               type="submit"
@@ -63,4 +63,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Quote

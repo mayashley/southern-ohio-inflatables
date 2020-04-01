@@ -1,18 +1,18 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import ContactForm from '../components/ContactForm'
+import Quote from '../components/Quote'
 import Title from '../constants/Title'
 import styles from "../css/items.module.css"
 
 
- const Contact = () => {
+ const SubmitQuote = () => {
     return (
         <Layout>
              <div className={styles.itemsWrapper}>
-           <Title title="Ask us a question..."/>
-            <ContactForm/>
+           <Title title="Ready to submit a quote?"/>
+            <Quote/>
             </div>
         </Layout>
     )
 }
-export default Contact
+export default SubmitQuote

@@ -5,8 +5,8 @@ import {FaFacebook} from 'react-icons/fa'
 export default[
     {
         icon:<MdCall/>,
-        url: "tel:+1-877-538-5888",
-        text:"+1-877-538-5888",
+        url: "tel:+1-937-217-3440",
+        text:"+1-937-217-3440",
     },
     {
         icon:<MdEmail/>,
@@ -15,7 +15,7 @@ export default[
     },
     {
         icon:<FaFacebook/>,
-        url:"https://facebook.com",
+        url:"https://www.facebook.com/southernohioinflatables/",
         text: "www.facebook.com",
     }
 ]
