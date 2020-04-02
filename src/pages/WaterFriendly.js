@@ -28,6 +28,7 @@ query{
 
  const WaterFriendly = () => {
     const { combos } = useStaticQuery(getAllWater);
+    console.log(combos)
     return (
         <Layout>
      <div className={styles.itemsWrapper}>
