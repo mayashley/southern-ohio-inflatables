@@ -26,7 +26,8 @@ exports.createPages = async ({ graphql, actions }) => {
       component: path.resolve("./src/templates/CombosTemplate.js"),
       context: {
         slug: node.slug,
-      },
+      }
     })
   })
 }
+
